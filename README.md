@@ -55,7 +55,7 @@ You should now see the changes you had made are also in the `main` branch.
   - IntelliJ: `Git -> branches... -> task_1 -> Delete`
   - Terminal: `git branch -d task_1`
 
-- [ ] Last step, we'll push our changes to the remote repository to share our work! (As we did in Lab 1.)
+- [x] Last step, we'll push our changes to the remote repository to share our work! (As we did in Lab 1.)
   - we suggest you check off this last item, commit that change (just right on main is fine;
   no need to branch for this little step), then push your code. Check GitHub to ensure you can
   see your changes.
