@@ -86,16 +86,16 @@ You'll notice that your repository already has two branches called `alice` and `
     `recipe.md` file and `git commit` to finish the merge.
 - [x] Once the merge is complete, delete the `bob` branch.
 
-- [ ] Finally, checkout the `main` branch and merge the `alice` branch in (as we did previously).
+- [x] Finally, checkout the `main` branch and merge the `alice` branch in (as we did previously).
 
 Now, you are almost ready to share your recipe with the remote! 
 
 # TASK 3
 
-- [ ] Checkout a new branch called `task_3`.
-- [ ] Commit any changes that you want to `recipe.md` to improve the recipe.
-- [ ] While still on the `task_3` branch, push your code to your remote repository on GitHub.
-- [ ] Go to GitHub and you will see an option to make a pull request to the original repo. Make
+- [x] Checkout a new branch called `task_3`.
+- [x] Commit any changes that you want to `recipe.md` to improve the recipe.
+- [x] While still on the `task_3` branch, push your code to your remote repository on GitHub.
+- [x] Go to GitHub and you will see an option to make a pull request to the original repo. Make
   a pull request and see that it shows up in the original repository that you forked.
 
 Since others will also be making pull requests, we won't *actually* accept any of them for now, but
@@ -128,3 +128,48 @@ previous task. GitHub as additional information about how its interface helps fa
 conflicts:
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
+
+commit is just taking a snapshot of the directory
+branch is just making a new version of the directory
+merge is to make the two branch information merged
+
+resource: read only if the above still doesn't make sense
+
+pull request is ony in the Github, not a git work.
+commit and push: repository is a graph of commit, commit change the local repository, push change the remote repository, 
+                  pull get the server remote repository to be the local.
+upstream branch: this means on the server, because the local repository don't know what your repository your branch represent.
+
+## lecture 2
+private means you can only use these between the closest bracket(in the class only) 
+
+package: collections of the classes
+
+default visibility: I can use this inside the package(private package), occur when we didn't say anything
+
+protected: subclass can use it, also in the package
+
+the ranking: 
+
+API of the class is the public method for the class.
+
+make the variable private but have the getter method or setter method.
+
+make the help method to be private
+
+one calss can only extend one parent calss.
+
+Memory model:
+-  new to create a new object.
+- Object is the parent for all the class.
+- an instance of Child can be used anywhere that a Parent is legal.
+
+# shadowing and overiding
+shadow: java uses the type of the reference to choose which to 
+add final before your method, then the subclass can not change the method.
+char c = ((String) o).charAi(), cast the o to strign
+
+o instanceof String, this check if the o is an instance of a String.
+
+# Instantiating the method
+- new calss-name
